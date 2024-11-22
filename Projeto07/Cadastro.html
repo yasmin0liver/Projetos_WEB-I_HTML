@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <header>
+            <title>Cadastro de Usuário</title>
+            <h1>Cadastro de Usuário</h1>
+            <ul>
+                <nav>
+                   <li><a href="Pagina_Principal.html">Inicío</a></li>
+                   <li><a href="Projetos.html">Projetos</a></li>
+                   <li><a href="Contato.html">Contato</a></li>
+                   <li><a href="Sobre_mim.html">Sobre</a></li>
+                </nav>
+            </ul>
+             </header>
+    </head>
+    <body>
+        <h1>Formulário de Cadastro</h1>
+        <form action="/enviar_dados" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" requirezed><br><br>
+
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email" requirezed><br><br>
+
+            <label for="senha">Senha:</label> 
+            <input type="password" id="senha" name="senha" requirezed><br><br>
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+            </select><br><br>
+
+            <label for="Interesses">Interesses:</label><br>
+            <input type="checkbox" id="Música" name="Música" requirized>Música<br>
+            <input type="checkbox" id="Esportes" name="Esportes" requirized>Esportes<br>
+            <input type="checkbox" id="Cúlinaria" name="Cúlinaria" requirized>Cúlinaria<br><br>
+
+            <label for="biografia">Biografia:</label><br> 
+            <textarea id="biografia" name="biografia" rows="4" cols="30"></textarea><br>
+            <input type="submit" id="Enviar">
+                
+           
+        </form> 
+        
+    </body>
+    <footer>
+        <p>&copy; 2024 Meu Site</p>
+    </footer>
+</html>
